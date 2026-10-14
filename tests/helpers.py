@@ -9,7 +9,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import graphics  # noqa: E402
 
 VOID_TAGS = {"img", "br", "meta", "input", "source", "link", "hr"}
-SCRIPT = ("Most Shorts lose people in the first two seconds. Here is the fix. Three moves. First, open on the hook. "
+SCRIPT = ("The first two seconds decide if anyone stays. Here is the fix. Three moves. First, open on the hook. "
           "Second, change the picture every three seconds. Third, cut every word you don't need.")
 
 
