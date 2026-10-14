@@ -1,0 +1,25 @@
+shorts-motion
+Copyright (c) 2026 Eric Snyder
+Licensed under the MIT License (see LICENSE).
+
+This repository includes or builds on the following third-party work.
+
+1. huashu-art-motion (https://github.com/alchaincyf/huashu-art-motion)
+   MIT License, Copyright (c) 2026 alchaincyf
+   - scripts/motion/film_gate.py is vendored unchanged from commit 2571ee0. Its licence is
+     scripts/motion/LICENSE-huashu-art-motion; scripts/motion/README.md says what we use it for.
+   - The "pages" layout in scripts/graphics.py is adapted from the idea of its y5 kinetic type grammar
+     (one page per beat, a key word that slams in, a colour-band wipe, a giant drifting numeral, a
+     progress track), rebuilt in HTML and CSS for HyperFrames.
+
+2. HyperFrames (https://github.com/heygen-com/hyperframes), HeyGen's open-source HTML-to-video renderer
+   Apache License 2.0. Used as a dependency, run with `npx hyperframes@0.8.79`. No HyperFrames code,
+   registry items or other files are included in this repository.
+
+3. Fonts in fonts/, SIL Open Font License 1.1 (the full licences are fonts/*-OFL.txt)
+   - Montserrat, Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)
+   - Barlow Condensed, Copyright 2017 The Barlow Project Authors (https://github.com/jpt/barlow)
+
+4. GSAP (https://gsap.com), the animation library the generated pages run on. Not included: build.py
+   downloads the pinned version (3.14.2) at build time. It is distributed under its own terms
+   (https://gsap.com/standard-license).

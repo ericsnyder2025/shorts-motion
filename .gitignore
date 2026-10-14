@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+scripts/.bin/
+build/
+shorts-motion-demo/
+*.motion.json
+.DS_Store
