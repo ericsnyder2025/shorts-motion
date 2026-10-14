@@ -1,0 +1,29 @@
+{
+  "id": "shorts-motion-demo",
+  "voice": "voice.wav",
+  "words": "words.json",
+  "captions": {"y": 1280, "size": 70},
+  "scenes": [
+    {"at": "Most Shorts", "mode": "graphic",
+     "bg": {"type": "kinetic", "text": "Most Shorts lose people in two seconds", "hit": ["two", "seconds"]}},
+    {"at": "Here is the fix", "mode": "graphic",
+     "bg": {"type": "pages", "start": 1, "pages": [
+       {"text": "The fix", "sub": "it fits in one breath", "key": "one breath", "at": "fix"},
+       {"text": "Three moves", "sub": "in this order", "at": "Three moves"}]}},
+    {"at": "First", "mode": "graphic",
+     "bg": {"type": "steps", "title": "The fix", "of": 3,
+            "items": [{"title": "Open on the hook", "sub": "the first frame says it", "at": "First"}]}},
+    {"at": "Second", "mode": "graphic",
+     "bg": {"type": "stat", "value": 3, "suffix": " s", "label": "Change the picture", "sub": "at least this often",
+            "at": "three seconds", "illustration": true, "illustration_label": "rule of thumb"}},
+    {"at": "Third", "mode": "graphic",
+     "bg": {"type": "steps", "title": "The fix", "first": 3, "of": 3,
+            "items": [{"title": "Cut every spare word", "sub": "if it doesn't move, it goes", "at": "Third"}]}},
+    {"at": "A slideshow", "mode": "graphic",
+     "bg": {"type": "compare",
+            "top": {"label": "Slideshow", "text": "Feels like a lecture"},
+            "bottom": {"label": "Moving type", "text": "Feels like a story", "at": "Moving type"}}},
+    {"at": "So make it move", "mode": "graphic",
+     "bg": {"type": "kinetic", "text": "So make it move", "hit": ["move"]}}
+  ]
+}
