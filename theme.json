@@ -1,0 +1,17 @@
+{
+  "colors": {
+    "ink": "#14161C",
+    "ink_deep": "#0B0C10",
+    "ink_lift": "#22262F",
+    "accent": "#2D6F63",
+    "accent_light": "#8ED1BF",
+    "paper": "#F2EFE8",
+    "signal": "#FFC24B",
+    "text": "#FFFFFF"
+  },
+  "fonts": {
+    "display": {"family": "Barlow Condensed", "file": "fonts/BarlowCondensed-Bold.ttf", "css_weight": "700"},
+    "body": {"family": "Montserrat", "file": "fonts/Montserrat.ttf", "css_weight": "100 900"}
+  },
+  "texture": {"dot_size": 10, "dot_gap": 44, "dot_alpha": 0.18}
+}
