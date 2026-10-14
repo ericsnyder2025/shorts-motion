@@ -4,8 +4,8 @@
   "words": "words.json",
   "captions": {"y": 1280, "size": 70},
   "scenes": [
-    {"at": "Most Shorts", "mode": "graphic",
-     "bg": {"type": "kinetic", "text": "Most Shorts lose people in two seconds", "hit": ["two", "seconds"]}},
+    {"at": "The first two", "mode": "graphic",
+     "bg": {"type": "kinetic", "text": "The first two seconds decide", "hit": ["two", "seconds"]}},
     {"at": "Here is the fix", "mode": "graphic",
      "bg": {"type": "pages", "start": 1, "pages": [
        {"text": "The fix", "sub": "it fits in one breath", "key": "one breath", "at": "fix"},
