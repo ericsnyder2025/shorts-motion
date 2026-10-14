@@ -58,7 +58,7 @@ Paths are relative to the file's own folder.
   "captions": {"y": 1280, "size": 70, "max_words": 3},
   "grade": {"saturate": 0.9, "brightness": 1.0, "contrast": 1.05},
   "scenes": [
-    {"at": "Most Shorts", "mode": "graphic", "bg": {"type": "kinetic", "text": "Most Shorts lose people in two seconds", "hit": ["two", "seconds"]}},
+    {"at": "The first two", "mode": "graphic", "bg": {"type": "kinetic", "text": "The first two seconds decide", "hit": ["two", "seconds"]}},
     {"at": "Here is the fix", "mode": "graphic", "bg": {"type": "pages", "pages": [{"text": "The fix", "at": "fix"}, {"text": "Three moves", "at": "Three moves"}]}}
   ]
 }

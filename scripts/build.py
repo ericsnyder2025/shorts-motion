@@ -21,7 +21,7 @@ scenes.json (paths are relative to its own folder; the full schema is in SKILL.m
   "captions": {"y": 1280, "size": 70},         optional; "off" for none
   "grade": {"saturate": 0.9},                  optional picture grade on footage only (not on graphics)
   "scenes": [                                  in order; each runs until the next one starts
-    {"at": "Most Shorts", "mode": "graphic", "bg": {"type": "kinetic", "text": "..."}},
+    {"at": "The first two", "mode": "graphic", "bg": {"type": "kinetic", "text": "..."}},
     {"at": "Here is", "mode": "avatar", "zoom": 1.15},
     ...
   ]

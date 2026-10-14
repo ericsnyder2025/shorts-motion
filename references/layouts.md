@@ -40,7 +40,7 @@ Big condensed type that builds word by word on the spoken words. For the hook, t
 | `height` | override the type block height in px |
 
 ```json
-{"at": "Most Shorts", "mode": "graphic", "bg": {"type": "kinetic", "text": "Most Shorts lose people in two seconds", "hit": ["two", "seconds"]}}
+{"at": "The first two", "mode": "graphic", "bg": {"type": "kinetic", "text": "The first two seconds decide", "hit": ["two", "seconds"]}}
 ```
 
 ## pages
