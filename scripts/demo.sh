@@ -6,7 +6,7 @@
 #
 #     scripts/demo.sh [work-dir]          (default: ./shorts-motion-demo)
 #
-# Needs python3 (numpy, Pillow, opencv-python-headless), ffmpeg and Node (npx fetches hyperframes@0.8.79 on first run).
+# Needs python3 (numpy, Pillow, opencv-python-headless), ffmpeg and Node 22+ (npx fetches hyperframes@0.8.79 on first run).
 set -euo pipefail
 HERE="$(cd "$(dirname "$0")" && pwd)"
 ROOT="$(dirname "$HERE")"

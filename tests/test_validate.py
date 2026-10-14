@@ -136,5 +136,19 @@ class Captions(unittest.TestCase):
             self.assertFalse(any(x.endswith((".", ",")) for x in inner), c)
 
 
+class Gsap(unittest.TestCase):
+    def test_offline_falls_back_to_the_cdn_with_a_note(self):
+        import tempfile
+        from pathlib import Path
+        from unittest import mock
+        with tempfile.TemporaryDirectory() as td, \
+                mock.patch.object(build.Path, "home", return_value=Path(td)), \
+                mock.patch.object(build.urllib.request, "urlopen", side_effect=OSError("offline")):
+            notes = []
+            src = build.gsap_src(build.Stage(Path(td) / "proj"), notes)
+            self.assertEqual(src, build.GSAP_URL)
+            self.assertTrue(notes and "offline" in notes[0])
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -36,7 +36,6 @@ the critic. Each "at" phrase starts its scene on that spoken word. Scene changes
 import argparse
 import html
 import json
-import os
 import re
 import shutil
 import subprocess
@@ -300,7 +299,7 @@ def gsap_src(stage, notes):
     """GSAP is not shipped with this repo (it has its own licence, gsap.com/standard-license): the first build
     downloads the pinned version into ~/.cache/shorts-motion and copies it into the project; offline, the page loads
     it from the CDN at render time."""
-    cache = Path(os.environ.get("XDG_CACHE_HOME") or Path.home() / ".cache") / "shorts-motion" / f"gsap-{GSAP_VERSION}.min.js"
+    cache = Path.home() / ".cache" / "shorts-motion" / f"gsap-{GSAP_VERSION}.min.js"
     if not cache.exists():
         try:
             cache.parent.mkdir(parents=True, exist_ok=True)
