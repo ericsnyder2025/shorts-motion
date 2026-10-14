@@ -62,8 +62,8 @@ class Layouts(unittest.TestCase):
     def test_kinetic_words_light_on_their_spoken_word(self):
         words = spoken()
         c, _ = ctx(words)
-        graphics.render(0, {"type": "kinetic", "text": "decide who stays"}, 0.0, 3.0, 3.0, c)
-        lose = next(w["s"] for w in words if w["w"] == "lose")
+        graphics.render(0, {"type": "kinetic", "text": "decide if anyone stays"}, 0.0, 3.0, 3.0, c)
+        lose = next(w["s"] for w in words if w["w"] == "decide")
         first = next(t for t in c.tweens if t[1] == "#k0_0" and t[2].get("opacity") == graphics.GHOST)
         self.assertAlmostEqual(first[4], lose - 0.04, places=2)
         self.assertEqual(c.notes, [])
