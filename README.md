@@ -27,9 +27,9 @@ when a cut drifts. The numbers are in [`scripts/motion/README.md`](scripts/motio
 
 ```bash
 # copy the folder into your Claude Code skills
-git clone https://github.com/<owner>/shorts-motion ~/.claude/skills/shorts-motion
+git clone https://github.com/ericsnyder2025/shorts-motion ~/.claude/skills/shorts-motion
 # or
-npx skills add <owner>/shorts-motion
+npx skills add ericsnyder2025/shorts-motion
 ```
 
 Then ask Claude Code for a Short ("make a 30-second Short explaining X from this script"); it picks the skill up from
